@@ -1,0 +1,30 @@
+* 架构
+* 前端
+  * 框架
+    * Vue
+    * React
+    * Angular
+* 数据库
+  * mongodb
+  * redis
+  * postgres
+* 语言
+  * JavaScrip
+  * Go
+  * C
+  * Rust
+* 运维
+  * 操作系统
+  * 容器
+    * docker
+    * kubernetes
+      * 基础
+      * 操作
+        * [ubuntu20.04搭建k8s](/运维/容器/kubernete/操作/ubuntu20.04部署k8s环境/ubuntu20.04搭建k8s环境.md)
+  * frp
+  * nginx
+    * 基础
+      * [nginx介绍](运维/nginx/基础/nginx介绍.md)
+      * [nginx下载安装](运维/nginx/基础/nginx下载安装.md)
+      * [nginx配置](运维/nginx/基础/nginx配置.md)
+      * [nginx常用命令](运维/nginx/基础/nginx常用命令.md)
