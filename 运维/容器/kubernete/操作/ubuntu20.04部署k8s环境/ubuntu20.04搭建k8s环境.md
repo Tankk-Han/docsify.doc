@@ -539,9 +539,9 @@ kubectl create deployment nginx --image=nginxkubectl expose deployment nginx --p
 ```
 
 显示信息如下：
-
+NAME                 TYPE        CLUSTER-IP     EXTERNAL-IP   PORT(S)        AGEservice/kubernetes
 ```bash
-NAME                 TYPE        CLUSTER-IP     EXTERNAL-IP   PORT(S)        AGEservice/kubernetes   ClusterIP   10.96.0.1      <none>        443/TCP        41mservice/nginx        NodePort    10.106.10.30   <none>        80:32579/TCP   18s
+service/nginx        NodePort    10.106.10.30   <none>        80:32579/TCP   18s
 ```
 
 此时访问：`<node 节点 ip>:32579` 即可访问到 NGINX 服务。
